@@ -1,0 +1,53 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Main                                                 */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+body {
+    background-color: #191720;
+    font-family: 'Mulish', sans-serif;
+}
+    
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+}
+    
+main {
+    padding: 60px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#storage {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    gap: 10px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    width: 700px;
+    height: 650px;
+  }
+  
+  .circle, .square {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .circle {
+    background-color: #09f;
+  }
+  
+  .square {
+    background-color: #09f;
+  }
+  

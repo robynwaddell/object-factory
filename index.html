@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"> 
+ <head>  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Robyn Waddell">
+  <meta name="description" content="Robyn Waddell's Portfolio">
+  <meta name="keywords" content="web developer, front end, design">
+  <title><Object-Factory></Object-Factory></title>
+  <link rel="stylesheet" href="./assets/style/index.css" media="all">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="./assets/script/app.js" defer></script> 
+</head>
+ <body>
+    <main class="container">
+       <div class="box">
+        <div>
+            <label for="shapeSelect">Select Shape:</label>
+            <select id="shapeSelect">
+                <option value="circle">Circle</option>
+                <option value="square">Square</option>
+            </select>
+            <label for="colorSelect">Select Color:</label>
+            <select id="colorSelect">
+                <option value="#09f">Blue</option>
+                <option value="#9f0">Green</option>
+                <option value="#f90">Orange</option>
+                <option value="#f09">Pink</option>
+                <option value="#90f">Purple</option>
+            </select>
+            <button id="create">Create</button>
+        </div>
+        <div id="storage"></div>
+        <div><p class="paragraph"></p></div>
+       </div>
+    </main>
+ </body>
+</html>
